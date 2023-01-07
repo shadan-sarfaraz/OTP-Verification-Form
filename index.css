@@ -63,6 +63,24 @@ body {
   color: #777;
   border-radius: 5px;
 }
+button{
+  display: block;
+  margin-left: 38%;
+  margin-bottom: 32px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  font-size: large;
+  border-radius: 8px;
+  background:  #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background: #3e8e41;
+  transition: .4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 @media (max-width: 800px) {
   .code-container {

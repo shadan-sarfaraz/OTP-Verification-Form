@@ -1,4 +1,5 @@
-document.querySelectorAll(".code").forEach(function(otpEl) {
+let code = document.querySelectorAll(".code");
+code.forEach(function(otpEl) {
     otpEl.addEventListener("keyup", backSp);
     otpEl.addEventListener("keypress", function() {
          
@@ -12,4 +13,5 @@ function backSp(backKey) {
         var prev = this.previousElementSibling.focus()
     }
 }
+
 // OTP Input (End)
